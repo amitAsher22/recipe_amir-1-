@@ -1,0 +1,88 @@
+* {
+  font-family: 'Heebo', sans-serif;
+  background-color: pink;
+}
+
+.mainContainer {
+  text-align: center;
+
+
+
+}
+
+.mainTitle {
+  font-size: 5rem;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 0px 120px;
+
+}
+
+
+.MainDiv {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  flex-wrap: wrap;
+  border: 1px solid rgb(88, 87, 86);
+  border-radius: 10px;
+
+}
+
+.image {
+  width: 100%;
+}
+
+.nameOfRecipe {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+
+}
+
+.divTitleAndButton {
+  margin: auto;
+  width: 90%;
+  padding: 1REM 0px;
+}
+
+.buttonLinkWeb {
+  margin: auto;
+  width: 40%;
+  padding: 0.5rem 2rem;
+  border: none;
+  background-color: olivedrab;
+  color: white;
+  font-size: 1.5rem;
+  width: 70%;
+  border-radius: 2rem;
+}
+
+.buttonLinkWeb:hover {
+  cursor: pointer;
+  background-color: white;
+  color: olivedrab;
+}
+
+@media (orientation: portrait) {
+  .container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .MainDiv {
+    width: 80%;
+    margin: auto;
+  }
+
+  .buttonLinkWeb {
+    width: 100%;
+  }
+}

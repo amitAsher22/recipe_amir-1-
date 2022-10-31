@@ -1,0 +1,30 @@
+.SearchInput {
+  width: 50%;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  border-radius: 2rem;
+  border: 2px solid rgb(62, 61, 61);
+}
+
+.SearchInput:focus {
+  outline: none;
+}
+
+
+.errorMassage {
+  color: red;
+  font-size: 1.3rem;
+  font-family: 'Island Moments', cursive;
+  ;
+}
+
+
+
+@media (orientation: portrait) {
+  .SearchInput {
+    width: 80%;
+  }
+
+
+}
